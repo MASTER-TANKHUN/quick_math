@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quick math</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="start-screen fade-in">
+            <h1 class="title">Rapid Math Skills</h1>
+            <p class="instruction">Challenge your mathematical prowess! 5 seconds to solve, 3 lives to spare. Push your limits!</p>
+            <button class="start-btn">Start</button>
+        </div>
+
+        <div class="game-screen">
+            <div class="hearts">
+                <div class="heart">❤️</div>
+                <div class="heart">❤️</div>
+                <div class="heart">❤️</div>
+            </div>
+            <div class="timer-container">
+                <div class="timer">5</div>
+            </div>
+            <div class="problem"></div>
+            <div class="choices">
+                <div class="choice" data-index="0"></div>
+                <div class="choice" data-index="1"></div>
+                <div class="choice" data-index="2"></div>
+                <div class="choice" data-index="3"></div>
+            </div>
+            <div class="progress">Question number 1/10</div>
+        </div>
+
+        <div class="result-screen">
+            <h2 class="result-text"></h2>
+            <p class="quote"></p>
+            <button class="restart-btn">play again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
