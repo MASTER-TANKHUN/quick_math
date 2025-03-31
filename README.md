@@ -7,7 +7,7 @@
 ![Website appearance](Desktopver_Screenshot.png)
 
 **Website appearance on Phone,Mini Size Tablet**
-![Website appearance](Phonever_screenshot.png)
+![Website appearance](Phonepver_Screenshot.png)
 
 ## How to Play:
 
