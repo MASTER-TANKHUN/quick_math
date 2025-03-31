@@ -1,9 +1,13 @@
-lang use
+## lang use
 * HTML
 * CSS
 * JavaScript
+## Website appearance
+**Website appearance on Desktop,Laptop,Tablet**
+![Website appearance](Desktopver_Screenshot.png)
 
-![Website appearance](NUll)
+**Website appearance on Phone,Mini Size Tablet**
+![Website appearance](Phonever_screenshot.png)
 
 ## How to Play:
 
