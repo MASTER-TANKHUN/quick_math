@@ -334,17 +334,6 @@ document.addEventListener('DOMContentLoaded', function() {
         .shake {
             animation: shake 0.5s ease;
         }
-        
-        @keyframes confettiFall {
-            0% { transform: translateY(-100vh) rotate(0deg); }
-            100% { transform: translateY(100vh) rotate(360deg); }
-        }
-        .confetti {
-            position: fixed;
-            top: -10px;
-            animation: confettiFall linear forwards;
-            z-index: 1000;
-        }
     `;
     document.head.appendChild(style);
 });
